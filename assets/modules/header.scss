@@ -1,0 +1,42 @@
+body
+{
+	padding: rem-calc(100); 
+}
+
+
+#header
+{
+	position: relative;
+	padding: 0 rem-calc(30);
+
+	.header-wrap
+	{
+		
+		 
+		#logo
+		{
+			float: left;
+		}
+
+		#primary-menu
+		{
+			float: right;
+			
+			li
+			{
+				display: inline-block;
+				float: left;
+			}
+		}
+
+		.header-search
+		{
+			float: right;
+		}
+
+		.header-cart
+		{
+			float: right;
+		}
+	}
+}

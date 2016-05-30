@@ -1,0 +1,23 @@
+// ===================================================
+// Utilities Styles
+// ===================================================
+
+
+// Import ONLY if Google Fonts URL is defined
+
+@if variable-exists(font-url-google-first) {
+	@import url($font-url-google-first);
+}
+
+@if variable-exists(font-url-google-second) {
+	@import url($font-url-google-second);
+}
+
+// Calculate em values
+
+@function em($target, $context: $base__font-size) {
+	@return ($target / $context ) * 1em;
+}
+
+// Mixins
+

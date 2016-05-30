@@ -1,0 +1,80 @@
+@import 'vendor/foundation/util/util';
+@import 'vendor/foundation/global';
+
+$global-font-size: 17px;
+
+$global-width: 1270px;
+
+$grid-column-gutter: 30px;
+
+$header-sizes: (
+  small: (
+    'h1': 35,
+    'h2': 28,
+    'h3': 24,
+    'h4': 18,
+    'h5': 16,
+    'h6': 14,
+  ),
+  medium: (
+    'h1': 52,
+    'h2': 42,
+    'h3': 34,
+    'h4': 28,
+    'h5': 20,
+    'h6': 18,
+  ),
+  large: (
+    'h1': 70,
+    'h2': 56,
+    'h3': 42,
+    'h4': 36,
+    'h5': 26,
+    'h6': 18,
+  )
+);
+
+$header-font-weight: bold;
+$header-lineheight: 1.2;
+
+$paragraph-lineheight: 1.8;
+
+
+
+
+// Forms
+
+$form-label-font-size: rem-calc(17);
+$form-label-line-height: rem-calc(40);
+
+$input-background: #f1f1f1;
+$input-background-focus: #f1f1f1;
+
+$input-border: 1px solid #f1f1f1;
+$input-border-focus: 1px solid #000;
+
+$input-shadow: 0;
+$input-shadow-focus: 0;
+
+$input-font-size: rem-calc(19);
+
+$input-radius: 3px;
+
+$select-background: #f1f1f1;
+$select-triangle-color: #bbb;
+$select-radius: 3px;
+
+
+
+
+
+
+$primary-color                : #000;
+$secondary-color              : #333;
+
+$secondary-color-dark         : #333;
+$secondary-color-medium       : #666;
+$secondary-color-light        : #bbb;
+$secondary-color-ultra-light  : #eee;
+
+$sidebar_bg_color             : #f7f7f7;
